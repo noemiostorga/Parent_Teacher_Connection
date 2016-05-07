@@ -43,7 +43,7 @@ section{
 }
 
 section div {
-	display: inline;
+	display: inline-block;
 	text-align: center;
 }
 
