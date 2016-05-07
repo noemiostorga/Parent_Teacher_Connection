@@ -1,0 +1,75 @@
+
+nav ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	width: 100%;
+}
+
+nav ul li{
+	display: inline;
+}
+.signUp{
+	display: inline;
+	float: right;
+}
+
+
+form{
+	width: 90%;
+	margin: 35px auto;
+	background: green;
+	padding: 5%;
+}
+
+
+form input{
+	display: block;
+	width: 90%;
+	margin: 10px auto;
+
+}
+
+.submit{
+	display: block;
+	width: 30%;
+	margin: 0 auto;
+}
+
+
+
+section{
+	margin-top: 100px ;
+}
+
+section div {
+	display: inline;
+	text-align: center;
+}
+
+footer{
+	margin-top: 60px;
+}
+
+footer p{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
