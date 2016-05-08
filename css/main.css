@@ -15,8 +15,7 @@ nav ul li{
 	display: inline;
 }
 .signUp{
-	text-align: center;
-}
+	float:right;}
 
 
 form{
@@ -40,6 +39,10 @@ input{
 	display: block;
 	width: 30%;
 	margin: 0 auto;
+}
+
+.signUp2{
+	text-align: center;
 }
 
 
