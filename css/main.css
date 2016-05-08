@@ -1,4 +1,9 @@
+.logo{
+	font-size: 2em;
+	font-weight: bold;
+}
 
+	
 nav ul{
 	padding: 0px;
 	margin: 0px;
@@ -10,23 +15,24 @@ nav ul li{
 	display: inline;
 }
 .signUp{
-	display: inline;
-	float: right;
+	text-align: center;
 }
 
 
 form{
-	width: 90%;
+	
 	margin: 35px auto;
 	background: green;
 	padding: 5%;
 }
 
 
-form input{
+input{
 	display: block;
-	width: 90%;
+	
+	width: 80%;
 	margin: 10px auto;
+
 
 }
 
