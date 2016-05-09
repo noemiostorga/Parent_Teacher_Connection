@@ -1,6 +1,16 @@
+.main-container{
+	margin: 0px;
+	padding: 0px;
+	min-width: 100%;
+	overflow-x:hidden; 
+	/*background: url("http://2fdae83a017x42mpok1onzai.wpengine.netdna-cdn.com/fashion_flex/wp-content/uploads/sites/10/2014/02/116.jpg");*/
+}
+
 .logo{
 	font-size: 2em;
 	font-weight: bold;
+	position: relative;
+	left: 20px;
 }
 
 	
@@ -15,20 +25,40 @@ nav ul li{
 	display: inline;
 }
 .signUp{
-	float:right;}
+	float:right;
+	font-size: 1.2em;
+	margin-top: 10px;
+	position: relative;
+	right: 20px;
+	border: none;
+	border-radius: 15px;
+	font-size: 1.5em;
+	background: #157DEC;
+	color: white;
+	padding: 5px 10px;
+}
+
+.login{
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 10px;
+}
 
 
 form{
 	
 	margin: 35px auto;
-	background: green;
-	padding: 5%;
+	box-shadow: -12px 10px 8px -4px rgba(229, 228, 226, 0.8);
+	background: rgba(229, 228, 226,.3);
+	padding: 3%;
 }
 
 
 input{
 	display: block;
-	
+	font-size: 1.5em;
+	border-radius: 5px;
+	border:none;
 	width: 80%;
 	margin: 10px auto;
 
@@ -39,16 +69,31 @@ input{
 	display: block;
 	width: 30%;
 	margin: 0 auto;
+	border: none;
+	border-radius: 15px;
+	font-size: 1.5em;
+	background: #157DEC;
+	color: white;
+	padding: 5px 10px;
+
 }
 
 .signUp2{
 	text-align: center;
+	text-decoration: underline;
+	font-size: 2em;
 }
 
+.section{
+	width: 100%;
+	padding-bottom: 20px;
+}
 
 
 section{
 	margin-top: 100px ;
+	background: rgba(255,255,255,.4);
+	max-width: 100%;
 }
 
 section div {
@@ -56,12 +101,22 @@ section div {
 	text-align: center;
 }
 
+.mini-header{
+	font-size: 2em;
+
+}
+
 footer{
-	margin-top: 60px;
+
+	background: black;
+	color: white;
+	padding: 2%;
+	font-size: 1.1em;
 }
 
 footer p{
 	text-align: center;
+
 }
 
 
