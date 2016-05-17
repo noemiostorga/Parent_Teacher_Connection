@@ -23,17 +23,24 @@
 // }
 
 $(function(){
-
+var $parents = $("#parents");
 $.ajax({
 	type: "GET",
 	url: "http://parent-teacher-connection.herokuapp.com/api/parents",
-	success: function(data){
-		console.log('success', data);
+	success: function(parents){
+		$.each(parents, function(i, parent){
+			$parents.append("<li> name: "+ parents.first_name+ "</li>")
+		})
+	},
+	error: function(){
+		alert("error on loading page");
 	}
 
 });
 
 });
+
+
 
 
 
